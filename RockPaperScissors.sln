@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RockPaperScissors", "RockPaperScissors\RockPaperScissors.csproj", "{A8653B26-0F01-4E0C-8C8B-61526F41A136}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RockPaperScissors.Basics", "RockPaperScissors.Basics\RockPaperScissors.Basics.csproj", "{43D63AAB-5AC9-416C-A2C0-A61E555276B6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RockPaperScissors.Gameplay", "RockPaperScissors.Gameplay\RockPaperScissors.Gameplay.csproj", "{BE887531-F7B7-403A-9B3F-3CE26072A166}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RockPaperScissors.Factory", "RockPaperScissors.Factory\RockPaperScissors.Factory.csproj", "{7AF04A4F-B6A1-4A61-A49A-89B162FD0E86}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RockPaperScissors.Strategies", "RockPaperScissors.Strategies\RockPaperScissors.Strategies.csproj", "{BCB86199-7081-4718-8D6F-6D8896393396}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyMaker", "StrategyMaker\StrategyMaker.csproj", "{D6FF76E3-C493-416A-AB5F-A0B4E0AAEF92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomStrategy", "CustomStrategy\CustomStrategy.csproj", "{1454AE5D-F989-4AA7-96E9-863AF249B8A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8653B26-0F01-4E0C-8C8B-61526F41A136}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8653B26-0F01-4E0C-8C8B-61526F41A136}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8653B26-0F01-4E0C-8C8B-61526F41A136}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8653B26-0F01-4E0C-8C8B-61526F41A136}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43D63AAB-5AC9-416C-A2C0-A61E555276B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43D63AAB-5AC9-416C-A2C0-A61E555276B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43D63AAB-5AC9-416C-A2C0-A61E555276B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43D63AAB-5AC9-416C-A2C0-A61E555276B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE887531-F7B7-403A-9B3F-3CE26072A166}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE887531-F7B7-403A-9B3F-3CE26072A166}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE887531-F7B7-403A-9B3F-3CE26072A166}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE887531-F7B7-403A-9B3F-3CE26072A166}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AF04A4F-B6A1-4A61-A49A-89B162FD0E86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AF04A4F-B6A1-4A61-A49A-89B162FD0E86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AF04A4F-B6A1-4A61-A49A-89B162FD0E86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AF04A4F-B6A1-4A61-A49A-89B162FD0E86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCB86199-7081-4718-8D6F-6D8896393396}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCB86199-7081-4718-8D6F-6D8896393396}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCB86199-7081-4718-8D6F-6D8896393396}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCB86199-7081-4718-8D6F-6D8896393396}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6FF76E3-C493-416A-AB5F-A0B4E0AAEF92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6FF76E3-C493-416A-AB5F-A0B4E0AAEF92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6FF76E3-C493-416A-AB5F-A0B4E0AAEF92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6FF76E3-C493-416A-AB5F-A0B4E0AAEF92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1454AE5D-F989-4AA7-96E9-863AF249B8A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1454AE5D-F989-4AA7-96E9-863AF249B8A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1454AE5D-F989-4AA7-96E9-863AF249B8A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1454AE5D-F989-4AA7-96E9-863AF249B8A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B975FBAF-F7C8-4C17-B936-2A3E44112158}
+	EndGlobalSection
+EndGlobal
